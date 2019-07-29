@@ -19,7 +19,7 @@ var (
 
 func main() {
 	flag.Parse()
-	cpu := runtime.NumCPU()
+	cpu := runtime.NumCPU() - 1
 	if *run_count == 0 {
 		*run_count = cpu
 	}
