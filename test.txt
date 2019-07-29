@@ -1,3 +1,5 @@
-ps
-ps
-ls
+exit
+run 1
+pwd
+pwd
+exit
